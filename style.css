@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    background-image: linear-gradient(to right, red 30%, black 30%);
+    height: 100vh;
+}
+
+.main {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1600px;
+}
+
+.title {
+ display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__right {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__link {
+    margin-right: 71px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+.name {
+    color: white;
+    font-size: 200px;
+}
+
+.car {
+    
+}
